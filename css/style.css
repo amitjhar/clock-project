@@ -1,0 +1,42 @@
+h2{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline cornflowerblue;
+}
+#main{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: rgb(227, 227, 227);
+    /* border: 2px solid red; */
+    box-shadow: 5px 5px 5px;
+
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+ div{
+    display: flex;
+    justify-content: center;
+}
+
+#clock {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1508962914676-134849a727f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2F0Y2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(4px);
+}
